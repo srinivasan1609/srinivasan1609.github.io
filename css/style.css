@@ -1,8 +1,6 @@
 /*--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
+Title:Personal Website;
+Author: Srinivasan S
 --*/
 html, body{
     font-family: 'Open Sans', sans-serif;
@@ -33,6 +31,12 @@ body h1,h2,h3,h4,h5,h6{
 .top-header {
 	padding: 2em 0;
 }
+.logo-image{
+    width: 25%;
+    height: auto;
+    border: 4px solid #009933;
+    padding: 3px;
+  }
 .logo h1 {
     margin: 0;
     text-transform: uppercase;
@@ -56,6 +60,8 @@ body h1,h2,h3,h4,h5,h6{
 	float:right;
 }
 .navigation-right ul li{
+  font-weight: bold;
+  text-shadow: 1px 1px #000000;
 	display:inline-block;
 }
 .navigation-right ul li a{
@@ -115,8 +121,12 @@ span.menu{
 	margin-right: auto;
 }
 #download-resume{
-  background: transparent;
-  border-size: 5px;
+  background: #009933;
+  border: 3px solid #009933;
+  padding: 5px;
+  margin-left: 70%;
+  width: 40%;
+  color: #C7C7C7;
 }
 .header-right {
     padding: 3em;
@@ -129,13 +139,10 @@ ul.address-text {
 ul.address {
     padding: 0;
 }
-.header-left img {
-    width: 100%;
-     margin-top: 19px;
-}
 .header-right {
-    padding-left: 3em;
+  padding-left: 3em;
 	text-align:center;
+  vertical-align: middle;
 }
 .service-head h4 {
     font-size: 1.2em;
@@ -158,6 +165,17 @@ ul.address {
     border-color: #00a78e transparent transparent transparent;
 	
 }
+.role{
+    top:75%;
+    left:55%;
+    width:70%;
+    height:50%;
+    color:white;
+    position: relative;
+    text-align:center;
+    margin: 10px 0 0 10px;
+
+}
 .header-right h1 {
     font-size: 1em;
     color: #C7C7C7;
@@ -174,18 +192,19 @@ ul.address {
 	font-weight: bold;
 	
 }
-.header-right h2{
+.role h2{
        font-size: 1em;
     color: #C7C7C7;
     margin-top: 0.8em;
     letter-spacing: 3px;
   display: block;
-	border-radius:50%;
-	width: 40%;
-	margin-left: 45%;
-	margin-right: auto;
-	width:100%;height:10%;text-align:center;position:relative;
-	
+  width: 100%;
+  margin-left: 40%;
+  margin-right: auto;
+  width:100%;
+  height:10%;
+  position:relative;
+  font-weight: bold;
 }
 
 ul.address {
@@ -1773,6 +1792,7 @@ span.border.two:after {
 		text-align: center;
 		padding: 0px;
 		margin: 13px 0px 0px;
+
 	}
 	.navigation-right ul.nav1 li {
 		display: inline-block;
@@ -1786,7 +1806,7 @@ span.border.two:after {
 		    background: rgba(27, 26, 26, 0.98);
 	}
 	.navigation-right {
-		margin: 0.7em 0 0;
+		margin: 0.9em 0 0;
 	}
 	.navigation-right ul li a {
 		display: inline-block;
@@ -1907,7 +1927,7 @@ span.border.two:after {
 	.header-right h2 {
 	font-size: 1em;
 	padding: .2em 0.5em;
-	margin-left: 1.8em;
+	margin-left: auto;
 }
 }
 @media(max-width:480px){
@@ -2005,6 +2025,7 @@ span.border.two:after {
 		margin: 0;
 		font-size: 1.8em;
 	}
+  
 	.logo span {
 		border: 7px solid #00a78e;
 		padding: 0px 10px;
@@ -2062,6 +2083,26 @@ span.border.two:after {
 		margin-bottom: 1em;
 		    padding: 0;
 	}
+  .role h2{
+    font-size: 1em;
+    color: #C7C7C7;
+    margin-top: 0.8em;
+    letter-spacing: 3px;
+    display: block;
+    margin-left: -102%;
+    width:200%;
+    height:20%;
+    position:relative;
+    font-weight: bold;
+}
+  #download-resume{
+  background: #009933;
+  border: 3px solid #009933;
+  padding: 5px;
+  margin-left: 10%;
+  width: 80%;
+  color: #C7C7C7;
+}
    .about-right {
 		float: none;
 		min-height: 255px;
@@ -2194,8 +2235,47 @@ span.border.two:after {
 		float: right;
 		padding: 0.5em 1em 1.5em 1em;
 	}
+  .header-right h1 {
+  font-size: 1em;
+  color: #C7C7C7;
+  margin-top: 0.8em;
+  letter-spacing: 3px;
+  display: block;
+  width: 100%;
+  margin-left: -15%;
+  width:150%;height:20%;
+  text-align:center;
+  position:relative;
+  font-weight: bold;
+  
+}
+  .role h2{
+    font-size: 0.8em;
+    color: #C7C7C7;
+    margin-top: 0.8em;
+    letter-spacing: 2px;
+    display: block;
+    width: 100%;
+    margin-left: -98%;
+    width:200%;
+    height:20%;
+    position:relative;
+    font-weight: bold;
+}
 }
 @media(max-width:320px){
+  .role h2{
+    font-size: 1em;
+    color: #C7C7C7;
+    margin-top: 0.8em;
+    letter-spacing: 3px;
+    display: block;
+    margin-left: -90%;
+    width:175%;
+    height:20%;
+    position:relative;
+    font-weight: bold;
+  }
 	.resp-tab-item {
 		margin: 0 0px 4px 0;
 		padding: 6px 9px;
