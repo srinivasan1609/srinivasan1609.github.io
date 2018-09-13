@@ -1037,7 +1037,7 @@ label.book{
 	
 }
 .edu-college h5,.exp-devide-grid-left h5,.edu-sslc h5{
-	color:#2b3b4b;
+	color:#1a1a1a;
 	text-transform:uppercase;
 	font-size:18px;
 	font-weight:800;
@@ -1046,13 +1046,13 @@ label.book{
 .edu-college small,.exp-devide-grid-left small,.edu-sslc small{
 	font-size:16px;
 	font-weight:400;
-	color:#7f8a90;
+	color:#f2f2f2;
 	padding:0 0 10px 0;
 }
 .edu-college p,.exp-devide-grid-left p,.edu-sslc p{
 	font-size:14px;
 	font-weight:400;
-	color:#7f8a90;
+	color:#f2f2f2;
 	line-height:1.2em;
 }
 .exp-devide-grid-left{
@@ -2114,6 +2114,7 @@ span.border.two:after {
 	.header-right h1 {
 		font-size: 1em;
 		padding: .4em 1em;
+    color: #f2f2f2;
 	}
 	.header-left {
 		padding: 0em 1em 1em 1em;
@@ -2187,7 +2188,7 @@ span.border.two:after {
 	}
   .role h2{
     font-size: 1em;
-    color: #C7C7C7;
+    color: #f2f2f2;
     margin-top: 0.8em;
     letter-spacing: 3px;
     display: block;
@@ -2258,6 +2259,10 @@ span.border.two:after {
   }
   .exp-devide h4{
     margin-left: 30%;
+  }
+  .edu-title h1{
+    font-size: 1.5em;
+    margin-bottom: 5%;
   }
 }
 @media(max-width:384px){
@@ -2379,6 +2384,27 @@ span.border.two:after {
   .exp-devide h4{
     width: 50%;
   }
+  .education{
+    margin-left: -10%;
+  }
+  .edu-title h1{
+  
+    font-size: 1.5em;
+    font-weight: 400;
+  }
+   .edu-sslc{
+  margin-left:-25%;
+}
+  .edu-college{
+    margin-left:-25%;
+  }
+  .exp-devide h4{
+    width: 50%;
+    margin-left: 30%;
+  }
+  .exp-devide-grid-left{
+    margin-left: 4%;
+  }
 }
 @media(max-width:320px){
   .role h2{
@@ -2393,11 +2419,12 @@ span.border.two:after {
     position:relative;
     font-weight: bold;
   }
+
   .edu-sslc{
-  margin-left:-25%;
+  margin-left:-30%;
 }
   .edu-college{
-    margin-left:-25%;
+    margin-left:-30%;
   }
   .exp-devide h4{
     width: 50%;
