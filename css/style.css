@@ -34,7 +34,7 @@ body h1,h2,h3,h4,h5,h6{
 .logo-image{
     width: 25%;
     height: auto;
-    border: 4px solid #00a78e;
+    border: 4px solid #006b24;
     padding: 3px;
   }
 .logo h1 {
@@ -48,7 +48,7 @@ body h1,h2,h3,h4,h5,h6{
 	 color:#fff;
 }
 .logo span {
-    border: 7px solid #00a78e;
+    border: 7px solid #006b24;
     padding: 0px 14px;
     font-size: 1.2em;
     color: #fff;
@@ -73,7 +73,7 @@ body h1,h2,h3,h4,h5,h6{
     font-family: 'Open Sans', sans-serif;
 }
 .navigation-right ul li.active a{
-	    color: #00a78e;
+	    color: #006b24;
 }
 span.menu{
 	display:none;
@@ -94,8 +94,8 @@ span.menu{
 	overflow: hidden;
 	padding: 10px 0;
 	max-width: 0;
-	border-bottom: 3px solid #00a78e;
-    color: #00a78e;
+	border-bottom: 3px solid #006b24;
+    color: #006b24;
 	content: attr(data-hover);
 	-webkit-transition: max-width 0.5s;
 	-moz-transition: max-width 0.5s;
@@ -121,7 +121,7 @@ span.menu{
 	margin-right: auto;
 }
 #download-resume{
-  background: #00a78e;
+  background: #006b24;
   border: 3px solid;
   padding: 5px;
   margin-left: 70%;
@@ -147,7 +147,7 @@ ul.address {
 .service-head h4 {
     font-size: 1.2em;
     color: #FFF;
-    background: #00a78e;
+    background: #006b24;
     display: inline-block;
     padding: .5em 1.5em;
     position: relative;
@@ -162,7 +162,7 @@ ul.address {
     left: 12px;
     border-style: solid;
     border-width: 14px 11px 0 12px;
-    border-color: #00a78e transparent transparent transparent;
+    border-color: #006b24 transparent transparent transparent;
 	
 }
 .role{
@@ -230,7 +230,7 @@ ul.address li ul.address-text li a {
 	text-decoration:none;
 }
 ul.address li ul.address-text li a:hover{
-        color: #00a78e;
+        color: #006b24;
 }
 ul.address-text b {
     color:#fff;
@@ -292,7 +292,7 @@ padding:80px 0;
     width: 115px;
     border-radius: 50%;
     justify-content: center;
-    border: 7px solid #00a78e;
+    border: 7px solid #006b24;
     margin: auto;
 }
 .circle-html{
@@ -300,7 +300,7 @@ padding:80px 0;
     width: 115px;
     border-radius: 50%;
     justify-content: center;
-    border: 7px solid #00a78e;
+    border: 7px solid #006b24;
     margin: auto;
 }
 .circle-css{
@@ -308,7 +308,7 @@ padding:80px 0;
     width: 115px;
     border-radius: 50%;
     justify-content: center;
-    border: 7px solid #00a78e;
+    border: 7px solid #006b24;
     margin: auto;
 }
 .skill-grids {
@@ -329,7 +329,7 @@ font-family: 'Jockey One', sans-serif;
 	font-weight:400;
 	}
 .skill-info h2 span{
-  background-color: #00a78e;
+  background-color: #006b24;
   padding: 5px;
   border-radius: 5%;
 }
@@ -346,7 +346,7 @@ font-family: 'Jockey One', sans-serif;
 ul.social-icons{
 	    display: block;
     padding: 0;
-    background:#00a78e;
+    background:#006b24;
     padding:1.3em 0;
     text-align: center;
 	margin:0;
@@ -388,7 +388,7 @@ ul.social-icons{
 background-position: 3px -94px;
 }
 .social-icons li a:hover::before {
-    border-color: #00a78e;
+    border-color: #006b24;
 	    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
 }
 /*-- wellcome-note --*/
@@ -440,7 +440,7 @@ background-position: 3px -94px;
     color: #777;
 }
 .news-text h3  a,ul.news li:hover  i{
-	 color:#00a78e;
+	 color:#006b24;
 	 text-decoration:none;
 }
 ul.news li {
@@ -460,8 +460,8 @@ ul.news li i{
 a.read {
     padding: 0.5em 1.5em;
     font-size: 1em;
-    color: #00a78e;
-    border: 2px solid #00a78e;
+    color: #006b24;
+    border: 2px solid #006b24;
     text-decoration: none;
     border-radius: 1.5em;
     -webkit-border-radius: 1.5em;
@@ -470,7 +470,7 @@ a.read {
     -ms-border-radius: 1.5em;
 }
 a.read:hover {
-	background:#00a78e;
+	background:#006b24;
 	color:#fff;
 }
 ul.news {
@@ -499,7 +499,7 @@ ul.news {
     font-size:0.9em;
 }
 h4.tittle  {
-    color: #00a78e;
+    color: #006b24;
     text-decoration: none;
     font-size: 1.4em;
     margin: 1em 0 0.5em 0;
@@ -532,7 +532,7 @@ span.border {
  span.border:after {
        content: ' ';
     position: absolute;
-    background: #00a78e;
+    background: #006b24;
     height: 7px;
     display: block;
     width: 73px;
@@ -542,7 +542,7 @@ span.border {
 span.border.one:after {
     content: ' ';
     position: absolute;
-    background: #00a78e;
+    background: #006b24;
     height: 7px;
     display: block;
     width: 73px;
@@ -572,7 +572,7 @@ span.border.one:after {
 	font-weight:700;
 }
 .about-left-grid h1 span{
-  background-color: #00a78e;
+  background-color: #006b24;
   padding: 5px;
   border-radius: 10%;
   color: #FFFFFF;
@@ -601,8 +601,8 @@ span.border.one:after {
 .about-left-grid ul li a {
        padding: 0.6em 2em;
     font-size: 1.2em;
-    color: #00a78e;
-    border: 2px solid #00a78e;
+    color: #006b24;
+    border: 2px solid #006b24;
     text-decoration: none;
     border-radius: 1.5em;
     -webkit-border-radius: 1.5em;
@@ -611,7 +611,7 @@ span.border.one:after {
     -ms-border-radius: 1.5em;
 }
 .about-left-grid ul li a:hover{
-	background:#00a78e;
+	background:#006b24;
 	color:#FFF;
 	border-radius:1.5em;
 	-webkit-border-radius:1.5em;
@@ -646,7 +646,7 @@ span.border.one:after {
 .service-head h3 span{
 	font-weight:700;
  font-family: 'Asap', sans-serif;
- background-color: #00a78e;
+ background-color: #006b24;
  border-radius: 5%;
   padding: 5px;
 }
@@ -691,7 +691,7 @@ span.border.one:after {
 }
 .wthree_about_right_grid_left i{
 	font-size: 1.7em;
-	color:#00a78e;
+	color:#006b24;
 	top:.8em;
 }
 .wthree_about_right_grid:hover .wthree_about_right_grid_left i{
@@ -700,11 +700,11 @@ span.border.one:after {
 .wthree_about_right_grid_right h4{
 	text-transform: uppercase;
     font-size: 1.0em;
-    color: #00a78e;
+    color: #006b24;
 }
 .wthree_about_right_grid_right h2{
     font-size: 1.2em;
-    color: #00a78e;
+    color: #006b24;
     font-weight: bold;
 }
 .wthree_about_right_grid_right p{
@@ -730,7 +730,7 @@ span.border.one:after {
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
   position: relative;
-  background:#00a78e;
+  background:#006b24;
   -webkit-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 0.3s;
@@ -823,7 +823,7 @@ span.border.one:after {
   -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
       background: #fff;
-	  border-bottom: 5px solid #00a78e;
+	  border-bottom: 5px solid #006b24;
 }
 h4.timeline-title a {
     margin: 0;
@@ -965,7 +965,7 @@ ul.year li:nth-child(5){
   font-weight: 600;
 }
 .edu-title h1 span{
-  background-color: #00a78e;
+  background-color: #006b24;
   border-radius: 5%;
   padding: 5px;
   font-weight: 600;
@@ -1024,7 +1024,7 @@ label.book{
 	top: 7em;
 	left: 37.255em;
   padding: 5px;
-  background: #00a78e;
+  background: #006b24;
   border-radius: 5px; 
   box-shadow: 3px 5px 1px #b3cccc;
 
@@ -1062,7 +1062,7 @@ label.book{
 	top:12em;
 	left: 5.8em;
   padding: 5px;
-  background: #00a78e;
+  background: #006b24;
   border-radius: 5px;
   box-shadow: 3px 5px 1px #b3cccc;
 }
@@ -1079,7 +1079,7 @@ label.book{
 	position:absolute;
 	top: 20em;
 	left: 37.255em;
-  background: #00a78e;
+  background: #006b24;
   border-radius: 5px;
   padding: 10px;
   box-shadow: 3px 5px 1px #b3cccc;
@@ -1218,7 +1218,7 @@ label.book{
     cursor: pointer;
     font-size: 18px;
     text-transform: uppercase;
-    border: 2px solid #00a78e;
+    border: 2px solid #006b24;
     display: inline-block;
     text-align: center;
     list-style: none;
@@ -1233,8 +1233,8 @@ label.book{
 }
 .resp-tab-active,.resp-tab-item:hover{
 	color: #fff;
-       border: 2px solid #00a78e;
-    background:#00a78e;
+       border: 2px solid #006b24;
+    background:#006b24;
 }
 .resp-tabs-container {
 	padding: 0px;
@@ -1405,7 +1405,7 @@ div#portfolioModal1,div#portfolioModal2,div#portfolioModal3,div#portfolioModal4,
 }
 .contact-grid1-left1 span {
     font-size: 1.5em;
-      color: #00a78e;
+      color: #006b24;
 }
 .contact-grid1-left1 ul{
 	padding:0;
@@ -1421,7 +1421,7 @@ div#portfolioModal1,div#portfolioModal2,div#portfolioModal3,div#portfolioModal4,
 }
 .contact-grid1-left1 a {
       font-size: 14px;
-    color: #00a78e;
+    color: #006b24;
     text-decoration: none;
 }
 ul.social-icons.two {
@@ -1443,7 +1443,7 @@ ul.social-icons.two {
     padding: 19px 10px;
     margin-bottom: 24px;
     outline: none;
-    border: 2px solid #00a78e;
+    border: 2px solid #006b24;
 }
 .mail_right textarea {
 	height:200px; 
@@ -1458,7 +1458,7 @@ ul.social-icons.two {
     padding: 13px 40px;
 }
 .mail_right input[type="submit"]:hover{
- background: #00a78e;
+ background: #006b24;
 	    transition: 0.5s all ease;
     -webkit-transition: 0.5s all ease;
     -moz-transition: 0.5s all ease;
@@ -1487,7 +1487,7 @@ span.border.two {
 span.border.two:after {
     content: ' ';
     position: absolute;
-    background: #00a78e;
+    background: #006b24;
     height: 7px;
     display: block;
     width: 73px;
@@ -1531,7 +1531,7 @@ span.border.two:after {
     margin: 1em 0;
 }
 .copy_right p a{
-    color: #00a78e;
+    color: #006b24;
 	text-decoration:none;
 }
 /*-- //contact --*/
@@ -1821,7 +1821,7 @@ span.border.two:after {
 		padding: 10px 10px;
 		margin-bottom: 12px;
 		outline: none;
-		border: 2px solid #00a78e;
+		border: 2px solid #006b24;
 		font-size: 0.9em;
 	}
 	.mail_right textarea {
@@ -1915,7 +1915,7 @@ span.border.two:after {
 	span.border.one:after {
 		content: ' ';
 		position: absolute;
-		background: #00a78e;
+		background: #006b24;
 		height: 7px;
 		display: block;
 		width: 73px;
@@ -1925,7 +1925,7 @@ span.border.two:after {
 	span.border.two:after {
 		content: ' ';
 		position: absolute;
-		background: #00a78e;
+		background: #006b24;
 		height: 7px;
 		display: block;
 		width: 73px;
@@ -2130,7 +2130,7 @@ span.border.two:after {
 	}
   
 	.logo span {
-		border: 7px solid #00a78e;
+		border: 7px solid #006b24;
 		padding: 0px 10px;
 		font-size: 1.2em;
 	}
@@ -2198,8 +2198,8 @@ span.border.two:after {
     font-weight: bold;
 }
   #download-resume{
-  background: #00a78e;
-  border: 3px solid #00a78e;
+  background: #006b24;
+  border: 3px solid #006b24;
   padding: 5px;
   margin-left: 10%;
   width: 80%;
