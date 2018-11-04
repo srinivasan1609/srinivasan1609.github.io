@@ -239,7 +239,7 @@ ul.address-text b {
 /*--- circles --*/
 .our-skills{
 background:#323b43;
-padding:80px 0;
+padding:0 10px;
 }
 .java_icon{
 	width:80%;
@@ -288,12 +288,34 @@ padding:80px 0;
 	}
 /*--- //circles --*/
 .circle{
-	 height: 115px;
+	height: 115px;
     width: 115px;
     border-radius: 50%;
     justify-content: center;
     border: 7px solid #006b24;
-    margin: auto;
+	margin: auto;
+	transition: width 5s height 5s;
+}
+.circle:hover{
+	position: relative;
+	background-color: #006b24;
+	padding: 10px;	
+	height: 120px;
+    width: 120px;
+}
+.circle-html:hover{
+	position: relative;
+	background-color: #006b24;
+	padding: 10px;	
+	height: 120px;
+    width: 120px;
+}
+.circle-css:hover{
+	position: relative;
+	background-color: #006b24;
+	padding: 10px;	
+	height: 120px;
+    width: 120px;
 }
 .circle-html{
    height: 115px;
@@ -313,7 +335,7 @@ padding:80px 0;
 }
 .skill-grids {
   margin-top: 60px;
-  margin-bottom: 60px;
+  margin-bottom: 250px;
 }
 .skills-grid p{
 	margin: 34px 0 0 0;
@@ -328,6 +350,9 @@ font-family: 'Jockey One', sans-serif;
 	text-align:center;
 	font-weight:400;
 	}
+.skill-info{
+	margin-top: 50px;
+}
 .skill-info h2 span{
   background-color: #006b24;
   padding: 5px;
@@ -335,11 +360,12 @@ font-family: 'Jockey One', sans-serif;
 }
 .skill-info h3{
 font-family: 'Jockey One', sans-serif;
-  margin-top: 10px;
+  margin-top: 25px;
   color: #ced7df;
   font-size: 30px;
   text-align:center;
   font-weight:400;
+  padding-top: 25px;
   }
 /*-- //my skills --*/
 /*--social-icons--*/
@@ -1342,11 +1368,9 @@ div#portfolioModal1,div#portfolioModal2,div#portfolioModal3,div#portfolioModal4,
     position: absolute;
     top: 25px;
     right: 25px;
-   width: 45px;
+   	width: 45px;
     height: 45px
-    background-color: transparent;
-    cursor: pointer;
-    z-index: 1;
+   
 }
 .portfolio-modal .close-modal:hover {
     opacity: .7;
@@ -2032,7 +2056,7 @@ span.border.two:after {
 	padding: .2em 0.5em;
 	margin-left: auto;
 }
-}
+
 @media(max-width:480px){
 	.wthree_about_right_grids {
 		margin-top:1.5em;
