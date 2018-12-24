@@ -19,7 +19,7 @@ body h1,h2,h3,h4,h5,h6{
 }
 /*-- header --*/
 #home {
-    background: url(../images/header-bg.jpg) no-repeat center top;
+    background: url(../images/home.jpg) no-repeat center top;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -128,10 +128,14 @@ span.menu{
   width: 40%;
   color: #C7C7C7;
 }
+.large-quote{
+	padding: 0;
+}
 .header-right {
-    padding: 3em;
-
-	
+    padding: 1em;	
+}
+.about-text{
+	margin:0;
 }
 ul.address-text {
     padding: 0;

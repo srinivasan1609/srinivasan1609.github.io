@@ -7,9 +7,11 @@ Author: Srinivasan S
 <head>
 <title>Srinivasan S| Full Stack Java Developer</title>
 <link rel="icon" type="image/ico" href="images/main-logo.png" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="js/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
 <!-- Custom Theme files -->
 <link href="css/style.css" rel='stylesheet' type='text/css' />
  <!-- Custom Theme files -->
@@ -75,13 +77,13 @@ Author: Srinivasan S
 				</div>
 			<div class="banner-info">
 				<div class="col-md-7 header-right">
-				<img src="images/profile-pic.jpg" class="profile-pic">
+				<img src="images/profile-pic-1.jpg" class="profile-pic">
 					
 					<h1>SRINIVASAN SUNDARAM</h1>
 					<div class="role">
 					<h2>FULL STACK JAVA DEVELOPER</h2>
 				</div>
-					<button id="download-resume" type="button" onclick="window.location.href='https://drive.google.com/uc?export=download&id=1WK0JYs1QShLJKBTGrsr1IsafhtyFHPjQ'">DOWNLOAD RESUME</button>
+					<button id="download-resume" type="button" onclick="window.location.href='https://drive.google.com/uc?export=download&id=1WK0JYs1QShLJKBTGrsr1IsafhtyFHPjQ'"><i class="fa fa-download"></i>  DOWNLOAD RESUME</button>
 				</div>
 				
 				<div class="clearfix"> </div>
@@ -95,16 +97,22 @@ Author: Srinivasan S
 				<div class="col-md-6 about-left">
 					<div id="owl-demo1" class="owl-carousel owl-carousel2">
 					                <div class="item">
-					                	<div class="about-left-grid">
+					                	<div id="about-me" class="about-left-grid">
 											<h1>ABOUT <span background-color="black">ME</span></h1>
 											<span class="border two"></span>
 											<h2>Hi! I'm <span>Srinivasan</span></h2>
-											<p>Passionate Full Stack Developer working in the ERP Product development industry. Skilled in Java Enterprise Edition, Cassandra, Cascading Style Sheets (CSS), HTML and JavaScript</p>
+											<p class="large-quote"><font size="50">"</font></p>
+											<p class="about-text">Team player software engineer with a solid experience in web application development. Expertise in Java Enterprise Edition,Spring MVC,Angular 6 Cascading Style Sheets (CSS), HTML and JavaScript</p>
+											<p class="large-quote"><font size="50">"</font></p>
 										</div>
 					                </div>
 					                </div>
 					</div>
 				</div>
+				<script>
+					
+				$(document).ready(function(){ $("#about-me").addClass("animated bounce"); });
+				</script>
 				<div class="col-md-6 about-right">
 					
 				</div>
@@ -327,12 +335,7 @@ Author: Srinivasan S
 		</div>
 		<div class="copy_right text-center">
 			<p>&copy; Ver.1.1 . All rights reserved | Design by Srinivasan.</p>
-			 <ul class="social-icons two">
-							<li><a href="#"> </a></li>
-							<li><a href="#" class="fb"> </a></li>
-							<li><a href="#" class="in"> </a></li>
-							<li><a href="#" class="dott"> </a></li>
-						</ul>
+			
 		</div>
 	</div>
 </div>
