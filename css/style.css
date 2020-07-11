@@ -1419,8 +1419,10 @@ div#portfolioModal1,div#portfolioModal2,div#portfolioModal3,div#portfolioModal4,
 /*-- //portfolio --*/
 /*-- contact --*/
 .mail_us{
-	    margin-bottom: 50px;
-    margin-top: 50px;
+	margin-left: 250px;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	width: 100%;
 }
 .contact-grid1-left {
     width: 100%;
