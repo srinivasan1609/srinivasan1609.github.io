@@ -1419,7 +1419,8 @@ div#portfolioModal1,div#portfolioModal2,div#portfolioModal3,div#portfolioModal4,
 /*-- //portfolio --*/
 /*-- contact --*/
 .mail_us{
-	margin-left: 250px;
+	margin-left: 25%;
+	margin-right: 75%;
 	margin-bottom: 50px;
 	margin-top: 50px;
 	width: 100%;
@@ -2064,6 +2065,21 @@ span.border.two:after {
 }
 
 @media(max-width:480px){
+	.mail_us{
+		margin-left: 20%;
+		margin-right: 80%;
+		margin-bottom: 50px;
+		margin-top: 50px;
+		width:70%;
+		align-items: center;
+	}
+	.profile-pic{
+		display: block;
+		border-radius:50%;
+		width: 40%;
+		margin-left: 30%;
+		margin-right: auto;
+	}
 	.wthree_about_right_grids {
 		margin-top:1.5em;
 	}
@@ -2222,7 +2238,7 @@ span.border.two:after {
     margin-top: 0.8em;
     letter-spacing: 3px;
     display: block;
-    margin-left: -102%;
+    margin-left: -110%;
     width:200%;
     height:20%;
     position:relative;
@@ -2293,6 +2309,20 @@ span.border.two:after {
   .edu-title h1{
     font-size: 1.5em;
     margin-bottom: 5%;
+  }
+  .header-right h1 {
+	font-size: 1em;
+	color: #C7C7C7;
+	margin-top: 0.8em;
+	letter-spacing: 3px;
+	display: block;
+	width: 100%;
+	margin-left: -24%;
+	width:150%;height:20%;
+	text-align:center;
+	position:relative;
+	font-weight: bold;
+
   }
 }
 @media(max-width:384px){
