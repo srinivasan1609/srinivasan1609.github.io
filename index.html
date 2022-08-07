@@ -82,7 +82,7 @@ Author: Srinivasan S
 					<div class="role">
 					<h2>FULL STACK DEVELOPER</h2>
 				</div>
-					<button id="download-resume" type="button" onclick="window.location.href='https://drive.google.com/uc?export=download&id=1yq03ZRHzMD-3bK4e3KvSd0z04CBtaJN9'"><i class="fa fa-download"></i>  DOWNLOAD RESUME</button>
+					<button id="download-resume" type="button" onclick="window.location.href='https://drive.google.com/uc?export=download&id=1tt1ilo6rXIN_RvAUMJY820A0bEhUsZw3'"><i class="fa fa-download"></i>  DOWNLOAD RESUME</button>
 				</div>
 				<div class="clearfix"> </div>
 						
@@ -160,9 +160,12 @@ Author: Srinivasan S
 						</div>
 					</div>
 					<div class="col-xs-8 wthree_about_right_grid_right">
+						<h2>Fiserv</h2>
+						<h4>Professional, Software Development Engineering</h4>
+						<p id="exp-para">September 2017 - December 2020 | 3 Years 2 Months</p>
 						<h2>IVTL Infoview Technologies Pvt.Ltd</h2>
 						<h4>Software Developer</h4>
-						<p id="exp-para">Sep 2017-Present|1 Year</p>
+						<p id="exp-para">September 2017 - December 2020 | 3 Years 2 Months</p>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
@@ -176,7 +179,7 @@ Author: Srinivasan S
 			var currentDate = new Date();
 			var currentMonth = currentDate.getMonth();
 			if(currentMonth > 9){
-				expPara.innerHTML ="September 2017 - Present|"+ (currentDate.getFullYear - 2017) +" Year"; 
+				expPara.innerHTML ="December 2020 - Present|"+ (currentDate.getFullYear - 2020) +" Year"; 
 			}
 			
 		</script>
@@ -257,7 +260,7 @@ Author: Srinivasan S
 						<img src = "images/spring.png" class = "spring_icon">
 						</div>
 						
-						<p>Spring MVC</p>
+						<p>Spring Framework</p>
 					</div>
 					<div class="col-md-3 skills-grid text-center">
 						<div class="circle" id="circles-2">
@@ -537,15 +540,15 @@ Author: Srinivasan S
 			var expPara = document.getElementById("exp-para");
 			var currentDate = new Date();
 			var currentMonth = currentDate.getMonth() + 1;
-			if(currentMonth >= 9){
-			var yearDiff = currentDate.getFullYear() - 2017;
-			var monthDiff = currentMonth-9;
+			if(currentMonth >= 12){
+			var yearDiff = currentDate.getFullYear() - 2020;
+			var monthDiff = currentMonth-12;
 		}else{
-			var yearDiff = currentDate.getFullYear() - 2017-1;
-			var monthDiff = currentMonth + 3;
+			var yearDiff = currentDate.getFullYear() - 2020-1;
+			var monthDiff = currentMonth + 1;
 		}
 			
-				expPara.innerText="September 2017 - Present | "+ yearDiff +" Year "+ monthDiff +" Months";
+				expPara.innerText="December 2020 - Present | "+ yearDiff +" Year "+ monthDiff +" Months";
 		
 		</script>
 
