@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Srinivasan Sundaram | Night Cockpit design</title>
+<meta name="robots" content="noindex">
+<meta name="description" content="Srinivasan Sundaram is a Senior Software Engineer at Jeppesen ForeFlight in Bengaluru, building aeronautical data pipelines in Java, Spring Boot, Kafka and Azure.">
+<meta name="keywords" content="Java, Spring Boot, Kafka, Azure, Kubernetes, AIXM, aeronautical data, software engineer">
+<meta name="author" content="Srinivasan Sundaram">
+<link rel="icon" type="image/png" href="../images/main-logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700&family=Manrope:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="../css/designs/night-cockpit.css" rel="stylesheet">
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="mark" href="#top">Srinivasan Sundaram</a>
+    <nav aria-label="Primary">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+<section class="hero">
+  <div class="wrap">
+    <div class="copy">
+      <h1>Srinivasan Sundaram</h1>
+      <p class="role">Senior Software Engineer at Jeppesen ForeFlight</p>
+      <p class="pitch">I build the data pipelines that carry aeronautical data from air navigation authorities around the world to pilots' flight bags, and the tooling that keeps that data correct.</p>
+      <a class="btn" href="https://drive.google.com/uc?export=download&amp;id=1tt1ilo6rXIN_RvAUMJY820A0bEhUsZw3">Download resume</a>
+      <div class="meta">
+        <span>Bengaluru, India</span>
+        <span id="total-exp">9+ years of experience</span>
+      </div>
+    </div>
+
+  </div>
+  <div class="bg" role="img" aria-label="Portrait of Srinivasan Sundaram"></div>
+</section>
+
+<section class="about" id="about">
+  <div class="wrap">
+    <h2>About</h2>
+    <div>
+      <p>I design and build full-stack software products, and I like the hard troubleshooting that comes with them. I mentor junior engineers, deliver on or before the deadline without cutting quality, and take independent technical ideas from first sketch to adoption across the organisation.</p>
+      <ul class="tags" aria-label="Focus areas">
+        <li>Data pipelines</li>
+        <li>Microservices</li>
+        <li>Event streaming</li>
+        <li>Cloud delivery</li>
+        <li>Applied AI</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="experience">
+  <div class="wrap">
+    <h2>Experience</h2>
+
+    <div class="line">
+
+      <article class="stop lead now">
+        <p class="when">July 2023 to present · <span data-since="2023-07">3 years</span></p>
+        <h3>Aero Data Ingest Platform</h3>
+        <p class="org">Senior Software Engineer 1, Jeppesen ForeFlight (formerly a Boeing company), Bengaluru</p>
+        <p class="blurb">An event-driven platform that processes high-volume aeronautical data: 28-day AIRAC navigation cycles, live AIXM 5.1 and Digital NOTAM feeds, and IWXXM weather streams from air navigation service providers (ANSPs) worldwide.</p>
+        <ul class="points">
+          <li>Part of the core team building the ingestion framework that delivers this data in real time to downstream systems and flight EFBs, for charting, flight planning and other pilot and crew decisions.</li>
+          <li>Own the ELT module that transforms AIXM 5.1 into the legacy Postgres schema. Changes go through a cycle-aware review and ticketing process, then stream downstream through CDC to Kafka.</li>
+          <li>Built, as a side project, a RAG pipeline that generates DO-200B certification documents from enterprise knowledge sources. Document creation dropped from 3 weeks to 1 week, and 6 projects now use it, with 2 audits completed.</li>
+          <li>Merged fragmented ticketing and manual entry into one cycle-aware workflow that creates change tickets when an AIXM file arrives. User review time fell 35%.</li>
+          <li>Designed an append-only versioning model that meets FAA data-integrity rules and supports point-in-time queries across historical aeronautical data.</li>
+          <li>Built a CI pipeline with CodeQL and unit tests on every PR, automatic deploys to Dev and Test, and gated deploys to UAT and Production on AKS. Releases went from monthly to every two weeks.</li>
+        </ul>
+        <p class="stack"><b>Tech:</b> Java 17, Spring Boot, Azure services, Postgres, GitHub, Docker, Kubernetes (AKS), Apache Kafka, AWS Bedrock, MCP</p>
+      </article>
+
+      <article class="stop">
+        <p class="when">December 2020 to July 2023 · 2 years 7 months</p>
+        <h3>Collections CX</h3>
+        <p class="org">Professional, SDE, Fiserv, Chennai</p>
+        <p class="blurb">Collections software that helps card issuers recover overdue credit card bills from delinquent customers.</p>
+        <ul class="points">
+          <li>Analysed, designed, built and unit tested key modules of the application.</li>
+          <li>Led the move of the UI project from a vendor to in-house development, cutting development costs 20%.</li>
+          <li>Built dynamic UI forms that give each tenant its own views through configuration.</li>
+          <li>Wrote a scheduler batch that automates processing of cardholder payments.</li>
+          <li>Created Splunk dashboards and alerts that reduced customer complaints 31%.</li>
+          <li>Received the Debut Excellence Award (2021) for impactful delivery and quick adaptation to the organisation's practices.</li>
+        </ul>
+        <p class="stack"><b>Tech:</b> Java 11, Spring Boot, Microservices, React JS, Cassandra, Bitbucket, Splunk, Jenkins</p>
+      </article>
+
+      <article class="stop">
+        <p class="when">September 2017 to December 2020 · 3 years 3 months</p>
+        <h3>HUE SCM Suite</h3>
+        <p class="org">Junior Engineer, IVTL Infoview Technologies Pvt Ltd, Chennai</p>
+        <p class="blurb">A next-generation ERP suite for sales, inventory and supply chain management.</p>
+        <ul class="points">
+          <li>Worked in a team of 15 that handled the whole process: requirements, solution and architecture design, development and testing.</li>
+          <li>Designed and developed code from requirement specifications.</li>
+          <li>Found bottlenecks and bugs and worked out fixes.</li>
+          <li>Created tools that reduced manual effort.</li>
+          <li>Reviewed existing code and changed it to fix errors and improve efficiency.</li>
+        </ul>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<section id="skills" style="padding-top:0">
+  <div class="wrap two">
+    <div class="skills">
+      <h2>Skills</h2>
+      <dl>
+        <div><dt>Languages</dt><dd>Java 25, JavaScript and TypeScript, Python</dd></div>
+        <div><dt>Backend</dt><dd>Spring Framework, Spring Boot, Microservices, Hibernate, Apache Kafka, Postgres</dd></div>
+        <div><dt>Frontend</dt><dd>React JS, Angular</dd></div>
+        <div><dt>Cloud and delivery</dt><dd>Azure services, Docker, Kubernetes, GitHub Actions, Git, Splunk</dd></div>
+        <div><dt>Applied AI</dt><dd>AWS Bedrock, MCP</dd></div>
+      </dl>
+    </div>
+
+    <div class="edu" id="education">
+      <h2>Education</h2>
+      <div class="item">
+        <b>B.E, Electronics and Communication Engineering</b>
+        <span>Adhiyamaan College of Engineering, Hosur · CGPA 8.68 · 2017</span>
+      </div>
+      <h3 style="margin:40px 0 12px">Certifications</h3>
+      <div class="item"><b>Microsoft Certified: Azure Fundamentals</b></div>
+      <div class="item"><b>Microsoft Certified: Azure AI Fundamentals</b></div>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="wrap">
+    <h2>Contact</h2>
+    <p class="big"><a href="mailto:srinivasans611@gmail.com">srinivasans611@gmail.com</a></p>
+    <ul>
+      <li><a href="tel:+919003678490">+91 90036 78490</a></li>
+      <li><a href="https://www.linkedin.com/in/srini1609">linkedin.com/in/srini1609</a></li>
+      <li><a href="https://srinivasan1609.github.io">srinivasan1609.github.io</a></li>
+    </ul>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">&copy; <span id="yr">2026</span> Srinivasan Sundaram</div>
+</footer>
+
+<script>
+(function () {
+  var now = new Date();
+
+  function span(from) {
+    var m = (now.getFullYear() - from[0]) * 12 + (now.getMonth() + 1 - from[1]);
+    var y = Math.floor(m / 12), mo = m % 12, out = [];
+    if (y) out.push(y + (y === 1 ? " year" : " years"));
+    if (mo) out.push(mo + (mo === 1 ? " month" : " months"));
+    return out.join(" ") || "1 month";
+  }
+  document.getElementById("total-exp").textContent = span([2017, 9]) + " of experience";
+  var s = document.querySelector("[data-since]");
+  if (s) s.textContent = span(s.getAttribute("data-since").split("-").map(Number));
+  document.getElementById("yr").textContent = now.getFullYear();
+})();
+</script>
+</body>
+</html>
