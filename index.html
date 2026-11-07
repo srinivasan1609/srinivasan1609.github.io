@@ -1,556 +1,186 @@
-<!--
-Title: Personal Website
-Author: Srinivasan S
--->
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>Srinivasan S| Full Stack Developer</title>
-<link rel="icon" type="image/ico" href="images/main-logo.png" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="js/jquery.min.js"></script>
-<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
-<!-- Custom Theme files -->
-<link href="css/style.css" rel='stylesheet' type='text/css' />
- <!-- Custom Theme files -->
- <meta name="viewport" content="width=device-width, initial-scale=1">
- <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
- <meta name="keywords" content="Java Spring MVC html software developer" />
-<!-- webfonts -->
-	<link href='//fonts.googleapis.com/css?family=Asap:400,700,400italic' rel='stylesheet' type='text/css'>
-	<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
-<!-- webfonts -->
- <!---- start-smoth-scrolling---->
-<script type="text/javascript" src="js/move-top.js"></script>
-<script type="text/javascript" src="js/easing.js"></script>
-	<script type="text/javascript">
-			jQuery(document).ready(function($) {
-				$(".scroll").click(function(event){		
-					event.preventDefault();
-					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-				});
-			});
-		</script>
- <!---- start-smoth-scrolling---->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Srinivasan Sundaram | Senior Software Engineer</title>
+<meta name="description" content="Srinivasan Sundaram is a Senior Software Engineer at Jeppesen ForeFlight in Bengaluru, building aeronautical data pipelines in Java, Spring Boot, Kafka and Azure.">
+<meta name="keywords" content="Java, Spring Boot, Kafka, Azure, Kubernetes, AIXM, aeronautical data, software engineer">
+<meta name="author" content="Srinivasan Sundaram">
+<link rel="icon" type="image/png" href="images/main-logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,400..800&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="css/site.css" rel="stylesheet">
 </head>
-	<body>
-		<!-- container -->
-			<!-- header -->
-			<div id="home" class="header">
-				<div class="container">
-				<!-- top-hedader -->
-				<div class="top-header">
-					<!-- /logo -->
-					<!--top-nav---->
-					<div class="top-nav">
-					<div class="navigation">
-					<div class="logo">
-						<img src="images/logo-1.png" class="logo-image">
-					</div>
-					<div class="navigation-right">
-						<span class="menu"><img src="images/menu.png" alt=" " /></span>
-						<nav class="link-effect-3" id="link-effect-3">
-							<ul class="nav1 nav nav-wil">
-								<li class="active"><a data-hover="Home" href="index.html">Home</a></li>
-								<li><a class="scroll" data-hover="About" href="#about">About</a></li>
-								<li><a class="scroll" data-hover="Experience" href="#experience" >Experience</a></li>
-								<li><a class="scroll" data-hover="Education" href="#education">Education</a></li>
-								<li><a class="scroll" data-hover="Skills" href="#skills">Skills</a></li>
-								<li><a class="scroll" data-hover="Contact" href="#contact">Contact</a></li>
-							</ul>
-						</nav>
-							<!-- script-for-menu -->
-								<script>
-								   $( "span.menu" ).click(function() {
-									 $( "ul.nav1" ).slideToggle( 300, function() {
-									 // Animation complete.
-									  });
-									 });
-								</script>
-							<!-- /script-for-menu -->
-					</div>
-					<div class="clearfix"></div>
-				</div>
-				<!-- /top-hedader -->
-				</div>
-			<div class="banner-info">
-				<div class="col-md-7 header-right">
-				<img src="images/profile-pic-1.jpg" class="profile-pic">
-					<h1>SRINIVASAN SUNDARAM</h1>
-					<div class="role">
-					<h2>FULL STACK DEVELOPER</h2>
-				</div>
-					<button id="download-resume" type="button" onclick="window.location.href='https://drive.google.com/uc?export=download&id=1tt1ilo6rXIN_RvAUMJY820A0bEhUsZw3'"><i class="fa fa-download"></i>  DOWNLOAD RESUME</button>
-				</div>
-				<div class="clearfix"> </div>
-						
-		      </div>
-			</div>
-		</div>
-	</div>
-			<!-- about -->
-			<div id="about" class="about">
-				<div class="col-md-6 about-left">
-					<div id="owl-demo1" class="owl-carousel owl-carousel2">
-					                <div class="item">
-					                	<div id="about-me" class="about-left-grid">
-											<h1>ABOUT <span background-color="black">ME</span></h1>
-											<span class="border two"></span>
-											<h2>Hi! I'm <span>Srinivasan</span></h2>
-											<p class="large-quote"><font size="50">"</font></p>
-											<p class="about-text">Team player software engineer with a solid experience in web application development. Expertise in Java Enterprise Edition,Spring MVC,Angular 6 Cascading Style Sheets (CSS), HTML and JavaScript</p>
-											<p class="large-quote"><font size="50">"</font></p>
-										</div>
-					                </div>
-					                </div>
-					</div>
-				</div>
-				<script>
-					
-				$(document).ready(function(){ $("#about-me").addClass("animated bounce"); });
-				</script>
-				<div class="col-md-6 about-right">
-					
-				</div>
-				<div class="clearfix"> </div>
-							<link href="css/owl.carousel.css" rel="stylesheet">
-							    <script src="js/owl.carousel.js"></script>
-			<script>
-				$(document).ready(function() {
-					$("#owl-demo1").owlCarousel({
-						items : 1,
-						lazyLoad : false,
-						autoPlay : true,
-						navigation : false,
-						navigationText :  false,
-						pagination : true,
-					});
-				});
-			</script>
-			<!-- Feedback -->
-			<script>
-				$(document).ready(function() {
-					$("#owl-demo3").owlCarousel({
-						items : 1,
-						lazyLoad : false,
-						autoPlay : true,
-						navigation : false,
-						navigationText :  true,
-						pagination :true,
-					});
-				});
-			</script>
-			</div>
-			<!-- /about -->
-			<!-- services -->
-			<div id="experience" class="services">
-				<div class="container">
-					<div class="service-head one text-center ">
-						<h3>WORK <span>EXPERIENCE</span></h3>
-						<span class="border two"></span>
-					</div>
-					<!-- services-grids -->
-					<div class="wthree_about_right_grids w3l-agile exp_text">
-				<div class="col-md-6 wthree_about_right_grid">
-					<div class="col-xs-4 wthree_about_right_grid_left">
-						<div class="hvr-rectangle-in">
-							<i class="glyphicon glyphicon-pencil"></i>
-						</div>
-					</div>
-					<div class="col-xs-8 wthree_about_right_grid_right">
-						<h2>Fiserv</h2>
-						<h4>Professional, Software Development Engineering</h4>
-						<p id="exp-para">September 2017 - December 2020 | 3 Years 2 Months</p>
-						<h2>IVTL Infoview Technologies Pvt.Ltd</h2>
-						<h4>Software Developer</h4>
-						<p id="exp-para">September 2017 - December 2020 | 3 Years 2 Months</p>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-			</div>
+<body>
 
-					<!-- services-grids -->
-				</div>
-			</div>
-			<script type="text/javascript">
-			var expPara = document.getElementById("exp-para");
-			var currentDate = new Date();
-			var currentMonth = currentDate.getMonth();
-			if(currentMonth > 9){
-				expPara.innerHTML ="December 2020 - Present|"+ (currentDate.getFullYear - 2020) +" Year"; 
-			}
-			
-		</script>
-			<!-- services -->
-			<!--work-experience-->
-	<div id = "education" class = "experience">
-		<div class="container">
-			<div class="exp-top">
-				<span class="line"></span>
-			</div>
-			<div class="edu-title"><h1>EDUCATION <span>HISTORY</span></h1></div>
-			<div class="exp-devide">
-				<h4>Education</h4>
-				<span class="devide-line">
-				</span>
-				<label class="bag"></label>
-				<div class="edu-college">
-					<h5>B.E(ECE)</h5>
-					<small>2013-2017 |CGPA-8.68</small>
-					<p>Adhiyamaan College Of Engineering,Hosur</p>
-				</div>
-				<div class="exp-devide-grid-left">
-					<h5>H.Sc</h5>
-					<small>2013|Percentage-92</small>
-					<p>St Joseph's Higher Secondary School,Hosur</p>
-				</div>
-				<div class="edu-sslc">
-					<h5>SSLC</h5>
-					<small>2011|Percentage-87</small>
-					<p>St Joseph's Higher Secondary School,Hosur</p>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div id=skills class="our-skills">
-		<div class="container">
-			<div class="skill-info">
-				<h2><span>MY</span> SKILLS</h2>
-			</div>
-			<div class="skill-info">
-				<h3>Programming Languages</h3>
-			</div>
-			<div class="skill-grids">
-					<div class="col-md-3 skills-grid text-center">
-						<div class="circle" id="circles-1">
-						<img src = "images/java.png" class = "java_icon">
-						</div>
-						
-						<p>Java EE</p>
-					</div>
-					<div class="col-md-3 skills-grid text-center">
-						<div class="circle-html" id="circles-2">
-						<img src = "images/html.png" class = "html_icon"/>
-						</div>
-						<p>HTML</p>
-					</div>
-					<div class="col-md-3 skills-grid text-center">
-						<div class="circle-css" id="circles-3">
-						<img src = "images/css.png" class = "css_icon">
-						</div>
-						<p>CSS</p>
-					</div>
-					<div class="col-md-3 skills-grid text-center">
-						<div class="circle" id="circles-4">
-						<img src = "images/js.png" class = "js_icon">
-						</div>
-						<p>JavaScript</p>
-					</div>
-		</div>
-		<div>	
-		<div class="skill-info">
-				<h3>Framework and Tools</h3>
-			</div>
-		</div>
-			<div class="skill-grids">
-					<div class="col-md-3 skills-grid text-center">
-						<div class="circle" id="circles-1">
-						<img src = "images/spring.png" class = "spring_icon">
-						</div>
-						
-						<p>Spring Framework</p>
-					</div>
-					<div class="col-md-3 skills-grid text-center">
-						<div class="circle" id="circles-2">
-						<img src = "images/angularjs.png" class = "angular_icon"/>
-						</div>
-						<p>Angular JS</p>
-					</div>
-					<div class="col-md-3 skills-grid text-center">
-						<div class="circle" id="circles-3">
-						<img src = "images/eclipse.png" class = "eclipse_icon">
-						</div>
-						<p>Eclipse IDE</p>
-					</div>
-					<div class="col-md-3 skills-grid text-center">
-						<div class="circle" id="circles-4">
-						<img src = "images/github.png" class = "html_icon">
-						</div>
-						<p>Git</p>
-					</div>
-		</div>
-	</div>
-	</div>
-			
+<header class="nav">
+  <div class="wrap">
+    <a class="mark" href="#top">Srinivasan Sundaram</a>
+    <nav aria-label="Primary">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
 
-		<!-- portfolio -->
+<main id="top">
 
-	<!-- //portfolio -->
-<div class="footer" id="contact">
-	<div class="container">
-	<div class="service-head one text-center">
-						<h4>CONTACT ME</h4>
-						<h3>GET <span>IN TOUCH WITH ME</span></h3>
-						<span class="border two"></span>
-					</div>
-		<div class="mail_us">
-			<div class="col-md-6 mail_left">
-				<div class="contact-grid1-left">
-					<div class="contact-grid1-left1">
-						<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
-						<h4>Contact By Email</h4>
-						<ul>
-							<li>Mail: <a href="mailto:srinivasans611@gmail.com">srinivasans611@gmail.com</a></li>
-						</ul>
-					</div>
-				</div>
-					<div class="contact-grid1-left">
-						<div class="contact-grid1-left1">
-							<span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
-							<h4>Contact By Phone</h4>
-							<ul>
-								<li>Phone: +91 9003678490</li>
-							</ul>
-						</div>
-					</div>
-					<div class="contact-grid1-left">
-						<div class="contact-grid1-left1">
-							<span class="glyphicon glyphicon-home" aria-hidden="true"></span>
-							<h4>Looking For Address</h4>
-							<ul>
-								<li>5/581 Anjeneyar Kovil Street,</li>
-								<li>Muneeshwar Nagar,</li>
-								<li>Hosur - 635109, Tamilnadu.</li>
-							</ul>
-						</div>
-					</div>
-				<div class="clearfix"> </div>
-			</div>
-			<div class="clearfix"></div>
-		</div>
-		<div class="copy_right text-center">
-			<p>&copy; Ver.1.1 (Beta) . All rights reserved | Design by Srinivasan.</p>
-			
-		</div>
-	</div>
-</div>
-			<!-- //footer -->
-		<!-- /container -->
-		<div class="portfolio-modal modal fade slideanim" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content port-modal">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl"></div>
-            </div>
-        </div>
-        <div class="container">
-			<div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <div class="modal-body">
-						<h3>Image-Title</h3>
-                        <img src="images/pic4.jpg" class="img-responsive img-centered" alt="">
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+<section class="hero">
+  <div class="wrap">
+    <div class="copy">
+      <h1>Srinivasan Sundaram</h1>
+      <p class="role">Senior Software Engineer at Jeppesen ForeFlight</p>
+      <p class="pitch">I build the data pipelines that carry aeronautical data from air navigation authorities around the world to pilots' flight bags, and the tooling that keeps that data correct.</p>
+      <a class="btn" href="https://drive.google.com/uc?export=download&amp;id=1tt1ilo6rXIN_RvAUMJY820A0bEhUsZw3">Download resume</a>
+      <div class="meta">
+        <span>Bengaluru, India</span>
+        <span id="total-exp">9+ years of experience</span>
+      </div>
     </div>
-</div>
-<div class="portfolio-modal modal fade slideanim" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content port-modal">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl"></div>
-            </div>
-        </div>
-        <div class="container">
-			<div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <div class="modal-body">
-						<h3>Image-Title</h3>
-                        <img src="images/pic9.jpg" class="img-responsive img-centered" alt="">
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="portfolio-modal modal fade slideanim" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content port-modal">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl"></div>
-            </div>
-        </div>
-        <div class="container">
-			<div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <div class="modal-body">
-						<h3>Image-Title</h3>
-                        <img src="images/pic5.jpg" class="img-responsive img-centered" alt="">
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="portfolio-modal modal fade slideanim" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content port-modal">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl"></div>
-            </div>
-        </div>
-        <div class="container">
-			<div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <div class="modal-body">
-						<h3>Image-Title</h3>
-                        <img src="images/pic6.jpg" class="img-responsive img-centered" alt="">
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="portfolio-modal modal fade slideanim" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content port-modal">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl"></div>
-            </div>
-        </div>
-        <div class="container">
-			<div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <div class="modal-body">
-						<h3>Image-Title</h3>
-                        <img src="images/pic10.jpg" class="img-responsive img-centered" alt="">
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="portfolio-modal modal fade slideanim" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content port-modal">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl"></div>
-            </div>
-        </div>
-        <div class="container">
-			<div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <div class="modal-body">
-						<h3>Image-Title</h3>
-                        <img src="images/pic11.jpg" class="img-responsive img-centered" alt="">
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="portfolio-modal modal fade slideanim" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content port-modal">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl"></div>
-            </div>
-        </div>
-        <div class="container">
-			<div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <div class="modal-body">
-						<h3>Image-Title</h3>
-                        <img src="images/pic13.jpg" class="img-responsive img-centered" alt="">
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="portfolio-modal modal fade slideanim" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content port-modal">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl"></div>
-            </div>
-        </div>
-        <div class="container">
-			<div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <div class="modal-body">
-						<h3>Image-Title</h3>
-                        <img src="images/pic14.jpg" class="img-responsive img-centered" alt="">
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="portfolio-modal modal fade slideanim" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content port-modal">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl"></div>
-            </div>
-        </div>
-        <div class="container">
-			<div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <div class="modal-body">
-                        <img src="images/pic1.jpg" class="img-responsive img-centered" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<a href="#home" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
-	<!--start-smooth-scrolling-->
-						<script type="text/javascript">
-									$(document).ready(function() {
-										/*
-										var defaults = {
-								  			containerID: 'toTop', // fading element id
-											containerHoverID: 'toTopHover', // fading element hover id
-											scrollSpeed: 1200,
-											easingType: 'linear' 
-								 		};
-										*/
-										
-										$().UItoTop({ easingType: 'easeOutQuart' });
-										
-									});
-								</script>
-								<!--end-smooth-scrolling-->
-<!-- //for bootstrap working -->
-	<script src="js/bootstrap.js"></script>
-	<script type="text/javascript">
-			var expPara = document.getElementById("exp-para");
-			var currentDate = new Date();
-			var currentMonth = currentDate.getMonth() + 1;
-			if(currentMonth >= 12){
-			var yearDiff = currentDate.getFullYear() - 2020;
-			var monthDiff = currentMonth-12;
-		}else{
-			var yearDiff = currentDate.getFullYear() - 2020-1;
-			var monthDiff = currentMonth + 1;
-		}
-			
-				expPara.innerText="December 2020 - Present | "+ yearDiff +" Year "+ monthDiff +" Months";
-		
-		</script>
 
-	</body>
+  </div>
+  <div class="bg" role="img" aria-label="Portrait of Srinivasan Sundaram"></div>
+</section>
+
+<section class="about" id="about">
+  <div class="wrap">
+    <h2>About</h2>
+    <div>
+      <p>I design and build full-stack software products, and I like the hard troubleshooting that comes with them. I mentor junior engineers, deliver on or before the deadline without cutting quality, and take independent technical ideas from first sketch to adoption across the organisation.</p>
+      <ul class="tags" aria-label="Focus areas">
+        <li>Data pipelines</li>
+        <li>Microservices</li>
+        <li>Event streaming</li>
+        <li>Cloud delivery</li>
+        <li>Applied AI</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="experience">
+  <div class="wrap">
+    <h2>Experience</h2>
+
+    <div class="line">
+
+      <article class="stop lead now">
+        <p class="when">July 2023 to present · <span data-since="2023-07">3 years</span></p>
+        <h3>Aero Data Ingest Platform</h3>
+        <p class="org">Senior Software Engineer 1, Jeppesen ForeFlight (formerly a Boeing company), Bengaluru</p>
+        <p class="blurb">An event-driven platform that processes high-volume aeronautical data: 28-day AIRAC navigation cycles, live AIXM 5.1 and Digital NOTAM feeds, and IWXXM weather streams from air navigation service providers (ANSPs) worldwide.</p>
+        <ul class="points">
+          <li>Part of the core team building the ingestion framework that delivers this data in real time to downstream systems and flight EFBs, for charting, flight planning and other pilot and crew decisions.</li>
+          <li>Own the ELT module that transforms AIXM 5.1 into the legacy Postgres schema. Changes go through a cycle-aware review and ticketing process, then stream downstream through CDC to Kafka.</li>
+          <li>Built, as a side project, a RAG pipeline that generates DO-200B certification documents from enterprise knowledge sources. Document creation dropped from 3 weeks to 1 week, and 6 projects now use it, with 2 audits completed.</li>
+          <li>Merged fragmented ticketing and manual entry into one cycle-aware workflow that creates change tickets when an AIXM file arrives. User review time fell 35%.</li>
+          <li>Designed an append-only versioning model that meets FAA data-integrity rules and supports point-in-time queries across historical aeronautical data.</li>
+          <li>Built a CI pipeline with CodeQL and unit tests on every PR, automatic deploys to Dev and Test, and gated deploys to UAT and Production on AKS. Releases went from monthly to every two weeks.</li>
+        </ul>
+        <p class="stack"><b>Tech:</b> Java 17, Spring Boot, Azure services, Postgres, GitHub, Docker, Kubernetes (AKS), Apache Kafka, AWS Bedrock, MCP</p>
+      </article>
+
+      <article class="stop">
+        <p class="when">December 2020 to July 2023 · 2 years 7 months</p>
+        <h3>Collections CX</h3>
+        <p class="org">Professional, SDE, Fiserv, Chennai</p>
+        <p class="blurb">Collections software that helps card issuers recover overdue credit card bills from delinquent customers.</p>
+        <ul class="points">
+          <li>Analysed, designed, built and unit tested key modules of the application.</li>
+          <li>Led the move of the UI project from a vendor to in-house development, cutting development costs 20%.</li>
+          <li>Built dynamic UI forms that give each tenant its own views through configuration.</li>
+          <li>Wrote a scheduler batch that automates processing of cardholder payments.</li>
+          <li>Created Splunk dashboards and alerts that reduced customer complaints 31%.</li>
+          <li>Received the Debut Excellence Award (2021) for impactful delivery and quick adaptation to the organisation's practices.</li>
+        </ul>
+        <p class="stack"><b>Tech:</b> Java 11, Spring Boot, Microservices, React JS, Cassandra, Bitbucket, Splunk, Jenkins</p>
+      </article>
+
+      <article class="stop">
+        <p class="when">September 2017 to December 2020 · 3 years 3 months</p>
+        <h3>HUE SCM Suite</h3>
+        <p class="org">Junior Engineer, IVTL Infoview Technologies Pvt Ltd, Chennai</p>
+        <p class="blurb">A next-generation ERP suite for sales, inventory and supply chain management.</p>
+        <ul class="points">
+          <li>Worked in a team of 15 that handled the whole process: requirements, solution and architecture design, development and testing.</li>
+          <li>Designed and developed code from requirement specifications.</li>
+          <li>Found bottlenecks and bugs and worked out fixes.</li>
+          <li>Created tools that reduced manual effort.</li>
+          <li>Reviewed existing code and changed it to fix errors and improve efficiency.</li>
+        </ul>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<section id="skills" style="padding-top:0">
+  <div class="wrap two">
+    <div class="skills">
+      <h2>Skills</h2>
+      <dl>
+        <div><dt>Languages</dt><dd>Java 25, JavaScript and TypeScript, Python</dd></div>
+        <div><dt>Backend</dt><dd>Spring Framework, Spring Boot, Microservices, Hibernate, Apache Kafka, Postgres</dd></div>
+        <div><dt>Frontend</dt><dd>React JS, Angular</dd></div>
+        <div><dt>Cloud and delivery</dt><dd>Azure services, Docker, Kubernetes, GitHub Actions, Git, Splunk</dd></div>
+        <div><dt>Applied AI</dt><dd>AWS Bedrock, MCP</dd></div>
+      </dl>
+    </div>
+
+    <div class="edu" id="education">
+      <h2>Education</h2>
+      <div class="item">
+        <b>B.E, Electronics and Communication Engineering</b>
+        <span>Adhiyamaan College of Engineering, Hosur · CGPA 8.68 · 2017</span>
+      </div>
+      <h3 style="margin:40px 0 12px">Certifications</h3>
+      <div class="item"><b>Microsoft Certified: Azure Fundamentals</b></div>
+      <div class="item"><b>Microsoft Certified: Azure AI Fundamentals</b></div>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="wrap">
+    <h2>Contact</h2>
+    <p class="big"><a href="mailto:srinivasans611@gmail.com">srinivasans611@gmail.com</a></p>
+    <ul>
+      <li><a href="tel:+919003678490">+91 90036 78490</a></li>
+      <li><a href="https://www.linkedin.com/in/srini1609">linkedin.com/in/srini1609</a></li>
+      <li><a href="https://srinivasan1609.github.io">srinivasan1609.github.io</a></li>
+    </ul>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">&copy; <span id="yr">2026</span> Srinivasan Sundaram</div>
+</footer>
+
+<script>
+(function () {
+  var now = new Date();
+
+  function span(from) {
+    var m = (now.getFullYear() - from[0]) * 12 + (now.getMonth() + 1 - from[1]);
+    var y = Math.floor(m / 12), mo = m % 12, out = [];
+    if (y) out.push(y + (y === 1 ? " year" : " years"));
+    if (mo) out.push(mo + (mo === 1 ? " month" : " months"));
+    return out.join(" ") || "1 month";
+  }
+  document.getElementById("total-exp").textContent = span([2017, 9]) + " of experience";
+  var s = document.querySelector("[data-since]");
+  if (s) s.textContent = span(s.getAttribute("data-since").split("-").map(Number));
+  document.getElementById("yr").textContent = now.getFullYear();
+})();
+</script>
+</body>
 </html>
