@@ -43,11 +43,11 @@ ul { margin: 0; padding: 0; list-style: none; }
 section { padding-block: clamp(56px, 8vw, 110px); }
 
 .nav { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 10; background: var(--hero); color: var(--hero-ink); border-bottom: 3px solid var(--green); }
-.nav .wrap { display: flex; justify-content: space-between; align-items: center; gap: 12px 24px; flex-wrap: wrap; padding-block: 12px; }
+.nav .wrap { display: flex; justify-content: space-between; align-items: center; gap: 12px 24px; flex-wrap: wrap; padding-block: 8px; }
 .nav .mark { font: 700 1.25rem var(--display); text-transform: uppercase; letter-spacing: 0.04em; color: var(--hero-ink); text-decoration: none; }
-.nav .mark { display: block; line-height: 0; }
-.nav .mark img { height: 40px; width: auto; display: block; transition: transform .2s; }
-.nav .mark:hover img { transform: scale(1.06); }
+.nav .mark { display: grid; place-items: center; width: 48px; height: 48px; background: var(--green); line-height: 0; transition: transform .2s, background .2s; }
+.nav .mark img { height: 34px; width: auto; display: block; filter: brightness(0) opacity(.88); }
+.nav .mark:hover { background: #00e599; transform: translateY(-1px); }
 .nav ul { display: flex; gap: clamp(12px, 2.4vw, 28px); flex-wrap: wrap; }
 .nav ul a { font: 500 0.8rem var(--mono); text-transform: uppercase; letter-spacing: 0.08em; color: var(--hero-muted); text-decoration: none; }
 .nav ul a:hover { color: var(--green); }
