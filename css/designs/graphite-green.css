@@ -1,12 +1,12 @@
-/* Layout: graphite hero (Neon-style mint green accent) with framed portrait; experience as a two-column log (mono dates left, detail right). */
+/* Layout: graphite hero (green 600 accent) with framed portrait; experience as a two-column log (mono dates left, detail right). */
 :root {
   --ground: #e7e8ea;
   --surface: #f4f4f5;
   --ink: #1f2226;
   --muted: #5a5f66;
   --rule: #c9ccd1;
-  --green: #00e599;
-  --green-text: #00805a;
+  --green: #00c282;
+  --green-text: #005c40;
   --hero: #1d1f22;
   --hero-2: #2a2d31;
   --hero-ink: #f1f2f3;
@@ -19,12 +19,12 @@
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
     --ground: #17191b; --surface: #202326; --ink: #e9eaec; --muted: #9da2a9;
-    --rule: #33373c; --green-text: #34f0aa; --hero: #0f1012; --hero-2: #1b1d20; color-scheme: dark;
+    --rule: #33373c; --green-text: #00c282; --hero: #0f1012; --hero-2: #1b1d20; color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
   --ground: #17191b; --surface: #202326; --ink: #e9eaec; --muted: #9da2a9;
-  --rule: #33373c; --green-text: #34f0aa; --hero: #0f1012; --hero-2: #1b1d20; color-scheme: dark;
+  --rule: #33373c; --green-text: #00c282; --hero: #0f1012; --hero-2: #1b1d20; color-scheme: dark;
 }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -59,7 +59,7 @@ section { padding-block: clamp(56px, 8vw, 110px); }
 .hero .pitch { font-size: 1.2rem; color: var(--hero-muted); }
 .btn { display: inline-flex; align-items: center; gap: 10px; background: var(--green); color: #1d1f22; padding: 14px 26px; font: 600 1rem var(--body); text-decoration: none; transition: transform 0.2s, background 0.2s; }
 .btn::after { content: "\2193"; }
-.btn:hover { background: #4dffbd; color: #1d1f22; transform: translateY(-2px); }
+.btn:hover { background: #00e599; color: #1d1f22; transform: translateY(-2px); }
 .hero .meta { margin-top: 28px; display: flex; flex-wrap: wrap; gap: 8px 28px; font: 400 0.82rem var(--mono); color: var(--hero-muted); text-transform: uppercase; letter-spacing: 0.05em; }
 .hero .meta span::before { content: "\25A0  "; color: var(--green); }
 .hero .bg { position: absolute; right: max(var(--gutter), calc((100% - 1200px) / 2 + var(--gutter))); top: 50%; transform: translateY(-50%); width: min(34%, 400px); aspect-ratio: 4 / 5; max-width: 100%;
