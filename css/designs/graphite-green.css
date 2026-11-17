@@ -48,6 +48,7 @@ section { padding-block: clamp(56px, 8vw, 110px); }
 .nav .mark { display: grid; place-items: center; width: 48px; height: 48px; border: 3px solid var(--green); background: transparent; line-height: 0; transition: border-color .2s, transform .2s; }
 .nav .mark img { height: 32px; width: auto; display: block; }
 .nav .mark:hover { border-color: #00e599; transform: translateY(-1px); }
+@media (min-width: 861px) { .nav .mark { margin-left: -16px; } }
 .nav ul { display: flex; gap: clamp(12px, 2.4vw, 28px); flex-wrap: wrap; }
 .nav ul a { font: 500 0.8rem var(--mono); text-transform: uppercase; letter-spacing: 0.08em; color: var(--hero-muted); text-decoration: none; }
 .nav ul a:hover { color: var(--green); }
