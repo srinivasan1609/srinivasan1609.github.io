@@ -68,11 +68,20 @@
 
 <section id="experience">
   <div class="wrap">
-    <h2>Experience</h2>
+    <div class="exp">
+    <aside class="exp-nav">
+      <h2>Experience</h2>
+      <p class="exp-sum"><span id="exp-total">9+ years</span> across aviation data, fintech and supply chain software.</p>
+      <ol class="roles" aria-label="Roles">
+        <li><a href="#role-jeppesen" data-role="role-jeppesen"><b>Jeppesen ForeFlight</b><span>Senior Software Engineer 1 · 2023 to now</span></a></li>
+        <li><a href="#role-fiserv" data-role="role-fiserv"><b>Fiserv</b><span>Professional, SDE · 2020 to 2023</span></a></li>
+        <li><a href="#role-ivtl" data-role="role-ivtl"><b>IVTL Infoview Technologies</b><span>Junior Engineer · 2017 to 2020</span></a></li>
+      </ol>
+    </aside>
 
     <div class="line">
 
-      <article class="stop lead now">
+      <article class="stop lead now" id="role-jeppesen">
         <p class="when">July 2023 to present · <span data-since="2023-07">3 years</span></p>
         <h3>Aero Data Ingest Platform</h3>
         <p class="org">Senior Software Engineer 1, Jeppesen ForeFlight (formerly a Boeing company), Bengaluru</p>
@@ -88,7 +97,7 @@
         <p class="stack"><b>Tech:</b> Java 17, Spring Boot, Azure services, Postgres, GitHub, Docker, Kubernetes (AKS), Apache Kafka, AWS Bedrock, MCP</p>
       </article>
 
-      <article class="stop">
+      <article class="stop" id="role-fiserv">
         <p class="when">December 2020 to July 2023 · 2 years 7 months</p>
         <h3>Collections CX</h3>
         <p class="org">Professional, SDE, Fiserv, Chennai</p>
@@ -104,7 +113,7 @@
         <p class="stack"><b>Tech:</b> Java 11, Spring Boot, Microservices, React JS, Cassandra, Bitbucket, Splunk, Jenkins</p>
       </article>
 
-      <article class="stop">
+      <article class="stop" id="role-ivtl">
         <p class="when">September 2017 to December 2020 · 3 years 3 months</p>
         <h3>HUE SCM Suite</h3>
         <p class="org">Junior Engineer, IVTL Infoview Technologies Pvt Ltd, Chennai</p>
@@ -118,6 +127,7 @@
         </ul>
       </article>
 
+    </div>
     </div>
   </div>
 </section>
@@ -181,6 +191,44 @@
   var s = document.querySelector("[data-since]");
   if (s) s.textContent = span(s.getAttribute("data-since").split("-").map(Number));
   document.getElementById("yr").textContent = now.getFullYear();
+  var tot = document.getElementById("exp-total");
+  if (tot) tot.textContent = span([2017, 9]).split(" ")[0] + "+ years";
+
+  /* experience: highlight the role being read, jump on click */
+  var links = [].slice.call(document.querySelectorAll(".roles a"));
+  var cards = links.map(function (a) { return document.getElementById(a.getAttribute("data-role")); });
+  var reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  function setActive(id) {
+    links.forEach(function (a, i) {
+      var on = a.getAttribute("data-role") === id;
+      if (on) a.setAttribute("aria-current", "true"); else a.removeAttribute("aria-current");
+      cards[i].classList.toggle("is-active", on);
+      if (on && a.parentNode.parentNode.scrollWidth > a.parentNode.parentNode.clientWidth) {
+        a.parentNode.parentNode.scrollTo({ left: a.parentNode.offsetLeft - 16, behavior: reduce ? "auto" : "smooth" });
+      }
+    });
+  }
+  links.forEach(function (a) {
+    a.addEventListener("click", function (e) {
+      e.preventDefault();
+      var el = document.getElementById(a.getAttribute("data-role"));
+      el.scrollIntoView({ behavior: reduce ? "auto" : "smooth", block: "start" });
+      setActive(el.id);
+    });
+  });
+  setActive("role-jeppesen");
+  if ("IntersectionObserver" in window) {
+    var io = new IntersectionObserver(function (es) {
+      es.forEach(function (e) { if (e.isIntersecting) setActive(e.target.id); });
+    }, { rootMargin: "-40% 0px -55% 0px" });
+    cards.forEach(function (c) { io.observe(c); });
+    if (!reduce) {
+      var ro = new IntersectionObserver(function (es, o) {
+        es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add("rise"); o.unobserve(e.target); } });
+      }, { rootMargin: "0px 0px -10% 0px" });
+      cards.forEach(function (c) { if (c.getBoundingClientRect().top > window.innerHeight) ro.observe(c); });
+    }
+  }
 })();
 </script>
 </body>
